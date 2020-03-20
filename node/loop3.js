@@ -1,4 +1,4 @@
-var i =1; 
+var i =15; 
 do{
     console.log("hello");
     i++;
