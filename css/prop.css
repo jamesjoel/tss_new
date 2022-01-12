@@ -1,0 +1,24 @@
+/*
+    Background Prop
+
+    1. background-color
+    2. background-image
+    3. background-size
+    4. background-repeat
+    5. background-poistion
+
+
+*/
+body{
+    background-color: #e26b56;
+}
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: #801457;
+    background-image: url("1.jpg");
+    /* background-size : 100% 100%; */
+    background-repeat: no-repeat;
+    background-position: 20px 50px;
+
+}
