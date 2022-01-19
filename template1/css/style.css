@@ -1,0 +1,18 @@
+body{
+    background-color: #F5F5F5;
+}
+.bg-orange{
+    background-color: #F05454;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    /* color: #121212 !important; */
+}
+#menu .nav .nav-item .nav-link{
+    color: #fff !important;
+    padding: 20px;
+}
+#menu .nav .nav-item .nav-link:hover{
+    background-color: #121212;
+}
