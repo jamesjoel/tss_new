@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
         <script src="js/jquery.js"></script>
@@ -40,51 +41,55 @@
         </style>
     </head>
     <body>
-       <nav class="navbar bg-light navbar-expand-xl navbar-light ">
-            <div class="container">
-                <a class="navbar-brand" id="logo" href="#">One page bootstrap</a>
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item px-2 " >
-                            <a href="#" id="active-page" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">Services</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">Portfolio</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">Team</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown px-2">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Help</a>
-                                <a href="#" class="dropdown-item">FAQ</a>
-                                <a href="#" class="dropdown-item">Feedback</a>
-                            </div>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link">Contact</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <button class="btn btn-info">Get Started</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>  
+        
             <div id="slider" class="carousel slide" data-ride="carousel" style="height: 360px; width: 100%;">
+
+                <nav class="navbar navbar-expand-xl navbar-light sticky-top">
+                    <div class="container">
+                        <a class="navbar-brand" id="logo" href="#">One page bootstrap</a>
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item px-2 " >
+                                    <a href="#" id="active-page" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">About</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Services</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Portfolio</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Team</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Pricing</a>
+                                </li>
+                                <li class="nav-item dropdown px-2">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">Help</a>
+                                        <a href="#" class="dropdown-item">FAQ</a>
+                                        <a href="#" class="dropdown-item">Feedback</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Contact</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <button class="btn btn-info">Get Started</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> 
+
+
                 <ul class="carousel-indicators">
                     <li class="active" data-target="#slider" data-slide-to="0"></li>
                     <li class="active" data-target="#slider" data-slide-to="1"></li>
@@ -166,7 +171,7 @@
                             <i class="fa fa-instagram my-3 px-2 footer-icon-font" aria-hidden="true"></i>
                             <i class="fa fa-twitter mt-y px-2 footer-icon-font" aria-hidden="true"></i>
                         </div>
-                        <div class="footer-copyright mx-auto w-50">
+                        <div class="footer-copyright text-center">
                             <p class="footer-color  mb-0 pb-2"><i class="fa fa-copyright" aria-hidden="true"></i> 2019 <a href="#">The Stepping Stone</a>.All Rights Reserved | Developed By <a href="#">Shobhit Joshi</a></p>
                         </div>
                     </div>
