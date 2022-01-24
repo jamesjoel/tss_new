@@ -1,0 +1,38 @@
+
+#active-page {
+    color: rgb(36, 135, 206);
+}
+.image-caption {
+
+    color: rgb(36, 135, 206);
+}
+.icon-font {
+    font-size: 30px;
+    color: rgb(36, 135, 206);
+}
+.card-title {
+    color: #124265;
+}
+#icon {
+    color: rgb(36, 135, 206);
+    font-weight: bold;
+}
+.footer {
+    width: 170px;
+}
+.footer-icon-font {
+    color: hsl(0, 13%, 53%);
+    font-size: 30px;
+}
+.footer-color {
+    color: rgb(212, 160, 160);
+
+}
+.footer-copyright {
+    color: rgb(201, 157, 157);
+    text-decoration: navajowhite
+    align-items: center;
+}
+
+
+
