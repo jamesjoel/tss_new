@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+        <style>
+            #active-page {
+                color: rgb(36, 135, 206);
+            }
+            .image-caption {
+
+                color: rgb(36, 135, 206);
+            }
+            .icon-font {
+                font-size: 30px;
+                color: rgb(36, 135, 206);
+            }
+            .card-title {
+                color: #124265;
+            }
+            #logo {
+                color: rgb(36, 135, 206);
+                font-weight: bold;
+            }
+            .footer {
+                width: 110px;
+            }
+            .footer-icon-font {
+                color: #fff;
+                font-size: 20px;
+            }
+            .footer-color {
+                color: #fff;
+            }
+            .footer-copyright a:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        
+            <div id="slider" class="carousel slide" data-ride="carousel" style="height: 360px; width: 100%;">
+
+                <nav class="navbar navbar-expand-xl navbar-light sticky-top">
+                    <div class="container">
+                        <a class="navbar-brand" id="logo" href="#">One page bootstrap</a>
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item px-2 " >
+                                    <a href="#" id="active-page" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">About</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Services</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Portfolio</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Team</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Pricing</a>
+                                </li>
+                                <li class="nav-item dropdown px-2">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">Help</a>
+                                        <a href="#" class="dropdown-item">FAQ</a>
+                                        <a href="#" class="dropdown-item">Feedback</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="#" class="nav-link">Contact</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <button class="btn btn-info">Get Started</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> 
+
+
+                <ul class="carousel-indicators">
+                    <li class="active" data-target="#slider" data-slide-to="0"></li>
+                    <li class="active" data-target="#slider" data-slide-to="1"></li>
+                    <li class="active" data-target="#slider" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/slider-1.jpg" alt="slider-1" style="height: 360px; width: 100%;" />
+                    <div class="carousel-caption">
+                        <h1 class="image-caption">First Image</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider-2.jpg" alt="slider-1" style="height: 360px; width: 100%;"/>
+                    <div class="carousel-caption">
+                        <h1 class="image-caption">Second Image</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider-3.jpg" alt="slider-1" style="height: 360px; width: 100%;" />
+                    <div class="carousel-caption">
+                        <h1 class="image-caption">Third Image</h1>
+                    </div>
+                </div>
+                </div>
+                <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#slider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </a>
+            
+            </div>  
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card my-5">
+                            <div class="card-body">
+                                <i class="fa fa-apple mt-5 icon-font" aria-hidden="true"></i>
+                                <h4 class="card-title mt-4">Apple</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur facere accusamus libero culpa ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card my-5">
+                            <div class="card-body">
+                                <i class="fa fa-snapchat mt-5 icon-font" aria-hidden="true"></i>
+                                <h4 class="card-title mt-4">Snapchat</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur facere accusamus libero culpa ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card my-5">
+                            <div class="card-body">
+                                <i class="fa fa-android mt-5 icon-font" aria-hidden="true"></i>
+                                <h4 class="card-title mt-4">Android</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur facere accusamus libero culpa ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card my-5">
+                            <div class="card-body">
+                                <i class="fa fa-amazon mt-5 icon-font" aria-hidden="true"></i>
+                                <h4 class="card-title mt-4">Amazon</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur facere accusamus libero culpa ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-dark">
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="mx-auto footer">
+                            <i class="fa fa-facebook my-3 px-2 footer-icon-font" aria-hidden="true"></i>
+                            <i class="fa fa-instagram my-3 px-2 footer-icon-font" aria-hidden="true"></i>
+                            <i class="fa fa-twitter mt-y px-2 footer-icon-font" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer-copyright text-center">
+                            <p class="footer-color  mb-0 pb-2"><i class="fa fa-copyright" aria-hidden="true"></i> 2019 <a href="#">The Stepping Stone</a>.All Rights Reserved | Developed By <a href="#">Shobhit Joshi</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+    </body>
+</html>
